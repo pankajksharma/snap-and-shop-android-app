@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbb33"
+    >
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/snapandshopbanner"
+        android:layout_alignParentTop="true" />
+   <LinearLayout 
+   android:orientation="vertical"
+   android:gravity="center"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" 
+   android:layout_alignParentBottom="true"
+   >
+		<Button android:text="@string/btnIntend" android:id="@+id/btnIntend"
+		    android:layout_height="wrap_content" 
+		    android:layout_width="wrap_content" />
+    <Button android:text="@string/btnIntendS" android:id="@+id/btnIntendS"
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent"
+        android:visibility="gone" />
+		<Button android:text="@string/btnIntendV" android:id="@+id/btnIntendV"
+		    android:layout_height="wrap_content" 
+		    android:layout_width="match_parent"
+		    android:visibility="gone" />
+  </LinearLayout>
+	<ImageView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:visibility="gone"
+	    android:id="@+id/imageView1" />
+	<VideoView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:visibility="gone"
+	    android:id="@+id/videoView1" />
+
+
+
+</RelativeLayout>
